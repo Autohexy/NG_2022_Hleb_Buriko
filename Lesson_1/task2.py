@@ -1,22 +1,22 @@
-a=int(input("Input a number: "))
+first_number=int(input("Input a number: "))
 action=(input("Input an action +; -; /; *; ^; sqrt; : "))
 
 if action=="+":
-    b=int(input("Input a second number: "))
-    print("Result", str(a+b))
+    second_number=int(input("Input a second number: "))
+    print("Result", str(first_number+second_number))
 elif action=="-":
-    b=int(input("Input a second number: "))
-    print("Result", str(a-b))
+    second_number=int(input("Input a second number: "))
+    print("Result", str(first_number-second_number))
 elif action=="/":
-    b=int(input("Input a second number: "))
-    print("Result", str(a/b))
+    second_number=int(input("Input a second number: "))
+    print("Result", str(first_number/second_number))
 elif action=="*":
-    b=int(input("Input a second number: "))
-    print("Result", str(a*b))
+    second_number=int(input("Input a second number: "))
+    print("Result", str(first_number*second_number))
 elif action=="^":
-    print("Result ", str(a**2))
+    print("Result ", str(first_number**2))
 elif action=="sqrt":
-    print("Result", str(a**0.5))
+    print("Result", str(first_number**0.5))
 
 else:
     print("NaN")
